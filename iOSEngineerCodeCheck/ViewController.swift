@@ -27,7 +27,7 @@ class ViewController: UITableViewController, UISearchBarDelegate {
     }
     
     func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
-        // ↓こうすれば初期のテキストを消せる
+        // ↓こうすれば初期のテキストを消せるaaaa
         searchBar.text = ""
         return true
     }
